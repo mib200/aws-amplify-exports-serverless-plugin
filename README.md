@@ -1,6 +1,6 @@
 # aws-amplify-exports-serverless-plugin
 
-Serverless plugin based on the archived awslabs amazon-archives/aws-amplify-serverless-plugin
+Serverless plugin based on the archived awslabs amazon-archives/aws-amplify-exports-serverless-plugin
 
 
 # AWS Amplify Plugin for Serverless Framework
@@ -9,16 +9,8 @@ This is a plugin for the [Serverless Framework](https://serverless.com) that gen
 
 ## Installation
 
-Install the plugin via Yarn (recommended)
-
 ```
-yarn add aws-amplify-serverless-plugin
-```
-
-or via NPM
-
-```
-npm install --save aws-amplify-serverless-plugin
+npm install --save aws-amplify-exports-serverless-plugin
 ```
 
 ## Configuration
@@ -27,7 +19,7 @@ Edit your `serverless.yml` file to include something like the following:
 
 ```
 plugins:
-  - aws-amplify-serverless-plugin
+  - aws-amplify-exports-serverless-plugin
 
 custom:
   amplify:
@@ -66,7 +58,7 @@ Let's say you had four directories in your GitHub repository - one for the backe
 
 ```
 plugins:
-  - aws-amplify-serverless-plugin
+  - aws-amplify-exports-serverless-plugin
 
 custom:
   amplify:
@@ -101,7 +93,7 @@ these will be as follows:
 
 ```
 plugins:
-  - aws-amplify-serverless-plugin
+  - aws-amplify-exports-serverless-plugin
 
 custom:
   amplify:
@@ -123,7 +115,7 @@ these will be as follows:
 
 ```
 plugins:
-  - aws-amplify-serverless-plugin
+  - aws-amplify-exports-serverless-plugin
 
 custom:
   amplify:
