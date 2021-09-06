@@ -28,6 +28,6 @@
     "json-stable-stringify-pretty": "^1.2.0"
   },
   "peerDependencies": {
-    "serverless": "1.x"
+    "serverless": "2.x"
   }
 }
